@@ -1,0 +1,58 @@
+/* default style */
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+/* style all p tag */
+p{
+    font-size: 18px;
+}
+
+/* form section style */
+.form-section {
+    background-color: rgb(183, 202, 154);
+    max-width: 750px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+/* income section style */
+.income-section  input{
+ margin-left: 30px;
+}
+.expense-section input{
+    margin-left: 45px;
+}
+.expense-section  .last-input{
+    margin-left: 15px;
+}
+/* calculate btn */
+.cal-btn{
+   padding: 10px 35px;
+   font-size: 18px;
+   background-color: #8dd070;
+   color: white;
+   font-weight: bold;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid outset;
+}
+.save-btn {
+    padding: 6px 40px;
+    font-size: 18px;
+    background-color: #8dd070;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid outset;
+}
+.save-section input{
+    width: 60px;
+    margin: 0 15px;
+}
