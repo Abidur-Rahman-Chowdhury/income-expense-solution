@@ -27,7 +27,7 @@ document.getElementById('cal-btn').addEventListener('click', function () {
     const showBalance = getShowElement('balance');
 
     // validation for string 
-    if (income == 'string' || food == 'string' || rent == 'string' || clothes == 'string') {
+    if (isNaN(income) || isNaN(food) || isNaN(rent)|| isNaN(clothes)) {
         alert('Please Enter number value');
 
     }
