@@ -56,3 +56,6 @@ p{
     width: 60px;
     margin: 0 15px;
 }
+input{
+    padding-left: 5px;
+}
