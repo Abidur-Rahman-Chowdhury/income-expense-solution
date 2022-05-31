@@ -10,6 +10,7 @@ Live Demo: [Income Expense Solution ](https://income-expense-solution.netlify.ap
 - Simple UI
 - Calculate your Income And Expense 
 - If you want to save any percentage of your amount this calculator will help you
+- Dom Manapulation
 
 ## Technologies
 - HTML 
